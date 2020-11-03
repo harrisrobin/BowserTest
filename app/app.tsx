@@ -46,6 +46,10 @@ function App() {
     NAVIGATION_PERSISTENCE_KEY,
   )
 
+  const isHermes = () => !!global.HermesInternal
+  console.log(isHermes())
+  console.log(global.HermesInternal)
+
   // Kick off initial async loading actions, like loading fonts and RootStore
   useEffect(() => {
     ;(async () => {

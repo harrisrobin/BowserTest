@@ -28,14 +28,15 @@
     "@react-native-community/masked-view": "0.1.10",
     "@react-navigation/native": "^5.1.5",
     "apisauce": "1.1.2",
+    "hermes-engine": "^0.5.2-rc1",
     "i18n-js": "^3.0.11",
     "lodash.throttle": "4.1.1",
-    "mobx": "^4.15.4",
-    "mobx-react-lite": "^1.4.1",
-    "mobx-state-tree": "^3.14.1",
+    "mobx": "^6.0.2",
+    "mobx-react-lite": "^3.0.1",
+    "mobx-state-tree": "^4.0.1-rc.1",
     "ramda": "0.27.1",
-    "react": "16.13.1",
-    "react-native": "0.63.2",
+    "react": "17.0.1",
+    "react-native": "0.63.3",
     "react-native-gesture-handler": "^1.5.0",
     "react-native-keychain": "6.1.1",
     "react-native-localize": "^1.0.0",
@@ -88,6 +89,9 @@
     "rimraf": "3.0.2",
     "solidarity": "3.0.0",
     "typescript": "3.9.7"
+  },
+  "resolutions": {
+    "hermes-engine": "^0.5.2-rc1"
   },
   "jest": {
     "preset": "react-native",
